@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Task-5/course-tab.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img
+          src="/Task-5/quantum screen assets/icons/logo used in header.svg"
+          alt="Quantum Logo"
+        />
+        <div class="nav-links">
+          <div class="nav-link-dashboard nav-link-selected">DASHBOARD</div>
+          <div class="nav-link-content">Content</div>
+          <div class="nav-link-users">USERS</div>
+          <div class="nav-link-reports">REPORTS</div>
+          <div class="nav-link-admin">ADMIN</div>
+          <a href="" class="notification">
+            <img
+              src="/Task-5/quantum screen assets/icons/alerts.svg"
+              alt="Alerts"
+            />
+            <span class="badge">2</span>
+          </a>
+          <a href="" class="notification">
+            <img
+              src="/Task-5/quantum screen assets/icons/announcements.svg"
+              alt="Announcements"
+            />
+            <span class="badge">1</span>
+          </a>
+          <a href="" class="notification">
+            <img
+              class="profile-image"
+              src="/Task-5/img_avatar.png"
+              alt="Profile Image"
+            />
+            <span class="badge2">T</span>
+          </a>
+          <a href="" class="nav-link-hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="tab">
+          <div class="courses-tab">
+            <img
+              src="/Task-5/quantum screen assets/icons/courses.svg"
+              alt="Courses Icon"
+            />
+            <span class="course-number">4</span>
+            <span>Courses</span>
+          </div>
+          <div class="classes-tab">
+            <img
+              src="/Task-5/quantum screen assets/icons/classes.svg"
+              alt="Classes Icon"
+            />
+            <span class="class-number">4</span>
+            <span>Classes</span>
+          </div>
+        </div>
+        <div class="sort">
+          <div class="totalcourses">Showing 4 of 4 courses</div>
+          <div class="sort-by">
+            <label for="sort-by-field">Sort By:</label>
+            <select id="sort-by-field" name="sort-by" class="dropdown">
+              <option value="coursename" selected>Course Name</option>
+            </select>
+            <img
+              src="/Task-5/quantum screen assets/icons/sort.svg"
+              alt="Sort Button"
+            />
+          </div>
+        </div>
+        <div class="course-cards">
+          <div class="course-card-1">
+            <div class="expire-disabled"></div>
+            <div class="card-info">
+              <img
+                src="/Task-5/quantum screen assets/images/imageMask-1.svg"
+                alt=""
+              />
+              <div class="card-part-1">
+                <div class="card-title">
+                  <div class="card-title-text">Acceleration</div>
+                  <img
+                    src="/Task-5/quantum screen assets/icons/favourite.svg"
+                    alt="Favourite"
+                  />
+                </div>
+                <div class="card-subject-grade">
+                  <div class="card-subject">Physics</div>
+                  <div class="card-grade">Grade 7</div>
+                  <div class="card-grade-update">+2</div>
+                </div>
+                <div class="card-unit-lesson">
+                  <div class="card-unit">
+                    <span class="Bold-number">4</span> <span>Units</span>
+                  </div>
+                  <div class="card-lesson">
+                    <span class="Bold-number">18</span> <span>Lessons</span>
+                  </div>
+                  <div class="card-topic">
+                    <span class="Bold-number">24</span> <span>Topics</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-part-2">
+                <div class="class-dropdown">
+                  <select
+                    id="state-dropdown-field"
+                    name="state"
+                    class="dropdown course-dropdown"
+                  >
+                    <option value="all-classes" selected>
+                      Mr. Frank's Class B
+                    </option>
+                  </select>
+                </div>
+                <div class="student-duration">
+                  <div class="student">50 Students</div>
+                  <div class="duration">21-Jan-2020 - 21-Aug-2020</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-actions">
+              <img
+                src="/Task-5/quantum screen assets/icons/preview.svg"
+                alt="Preview Course"
+              />
+              <img
+                src="/Task-5/quantum screen assets/icons/manage course.svg"
+                alt="Manage Course"
+              />
+              <img
+                src="/Task-5/quantum screen assets/icons/grade submissions.svg"
+                alt="Submit Grade"
+              />
+              <img
+                src="/Task-5/quantum screen assets/icons/reports.svg"
+                alt="Show Reports"
+              />
+            </div>
+          </div>
+          <div class="course-card-2">
+            <div class="course-card-1">
+              <div class="expire-disabled"></div>
+              <div class="card-info">
+                <img
+                  src="/Task-5/quantum screen assets/images/imageMask-2.svg"
+                  alt=""
+                />
+                <div class="card-part-1">
+                  <div class="card-title">
+                    <div class="card-title-text">
+                      Displacement, Velocity and Speed
+                    </div>
+                    <img
+                      src="/Task-5/quantum screen assets/icons/favourite.svg"
+                      alt="Favourite"
+                    />
+                  </div>
+                  <div class="card-subject-grade">
+                    <div class="card-subject">Physics 2</div>
+                    <div class="card-grade">Grade 6</div>
+                    <div class="card-grade-update">+3</div>
+                  </div>
+                  <div class="card-unit-lesson">
+                    <div class="card-unit">
+                      <span class="Bold-number">2</span> <span>Units</span>
+                    </div>
+                    <div class="card-lesson">
+                      <span class="Bold-number">15</span> <span>Lessons</span>
+                    </div>
+                    <div class="card-topic">
+                      <span class="Bold-number">20</span> <span>Topics</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-part-2">
+                  <div class="class-dropdown">
+                    <select
+                      id="state-dropdown-field"
+                      name="state"
+                      class="dropdown course-dropdown"
+                    >
+                      <option value="all-classes" selected>No Classes</option>
+                    </select>
+                  </div>
+                  <div class="student-duration hidden">
+                    <div class="student"></div>
+                    <div class="duration"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-actions">
+                <img
+                  src="/Task-5/quantum screen assets/icons/preview.svg"
+                  alt="Preview Course"
+                />
+                <img
+                  class="img-disabled"
+                  src="/Task-5/quantum screen assets/icons/manage course.svg"
+                  alt="Manage Course"
+                />
+                <img
+                  class="img-disabled"
+                  src="/Task-5/quantum screen assets/icons/grade submissions.svg"
+                  alt="Submit Grade"
+                />
+                <img
+                  src="/Task-5/quantum screen assets/icons/reports.svg"
+                  alt="Show Reports"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="course-card-3">
+            <div class="course-card-1">
+              <div class="expire-disabled"></div>
+              <div class="card-info">
+                <img
+                  src="/Task-5/quantum screen assets/images/imageMask.svg"
+                  alt=""
+                />
+                <div class="card-part-1">
+                  <div class="card-title">
+                    <div class="card-title-text">
+                      Introduction to Biology: Micro organisms and how they
+                      affec...
+                    </div>
+                    <img
+                      src="/Task-5/quantum screen assets/icons/favourite.svg"
+                      alt="Favourite"
+                    />
+                  </div>
+                  <div class="card-subject-grade">
+                    <div class="card-subject">Biology</div>
+                    <div class="card-grade">Grade 4</div>
+                    <div class="card-grade-update">+1</div>
+                  </div>
+                  <div class="card-unit-lesson">
+                    <div class="card-unit">
+                      <span class="Bold-number">5</span> <span>Units</span>
+                    </div>
+                    <div class="card-lesson">
+                      <span class="Bold-number">16</span> <span>Lessons</span>
+                    </div>
+                    <div class="card-topic">
+                      <span class="Bold-number">22</span> <span>Topics</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-part-2">
+                  <div class="class-dropdown">
+                    <select
+                      id="state-dropdown-field"
+                      name="state"
+                      class="dropdown course-dropdown"
+                    >
+                      <option value="all-classes" selected>All Classes</option>
+                    </select>
+                  </div>
+                  <div class="student-duration">
+                    <div class="student">300 Students</div>
+                    <div class="duration hidden"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-actions">
+                <img
+                  src="/Task-5/quantum screen assets/icons/preview.svg"
+                  alt="Preview Course"
+                />
+                <img
+                  class="img-disabled"
+                  src="/Task-5/quantum screen assets/icons/manage course.svg"
+                  alt="Manage Course"
+                />
+                <img
+                  class="img-disabled"
+                  src="/Task-5/quantum screen assets/icons/grade submissions.svg"
+                  alt="Submit Grade"
+                />
+                <img
+                  src="/Task-5/quantum screen assets/icons/reports.svg"
+                  alt="Show Reports"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="course-card-4">
+            <div class="course-card-1">
+              <div class="expire">EXPIRED</div>
+              <div class="card-info">
+                <img
+                  src="/Task-5/quantum screen assets/images/imageMask-3.svg"
+                  alt=""
+                />
+                <div class="card-part-1">
+                  <div class="card-title">
+                    <div class="card-title-text">
+                      Introduction to High School Mathematics
+                    </div>
+                    <img src="/Task-5/favourite-disabled.svg" alt="Favourite" />
+                  </div>
+                  <div class="card-subject-grade">
+                    <div class="card-subject">Mathematics</div>
+                    <div class="card-grade">Grade 8</div>
+                    <div class="card-grade-update">+3</div>
+                  </div>
+                  <div class="card-unit-lesson hidden">
+                    <div class="card-unit">
+                      <span class="Bold-number">4</span> <span>Units</span>
+                    </div>
+                    <div class="card-lesson">
+                      <span class="Bold-number">18</span> <span>Lessons</span>
+                    </div>
+                    <div class="card-topic">
+                      <span class="Bold-number">24</span> <span>Topics</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-part-2">
+                  <div class="class-dropdown">
+                    <select
+                      id="state-dropdown-field"
+                      name="state"
+                      class="dropdown course-dropdown"
+                    >
+                      <option value="all-classes" selected>
+                        Mr. Frank's Class A
+                      </option>
+                    </select>
+                  </div>
+                  <div class="student-duration">
+                    <div class="student">44 Students</div>
+                    <div class="duration">14-Oct-2019 - 20-Oct-2020</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-actions">
+                <img
+                  src="/Task-5/quantum screen assets/icons/preview.svg"
+                  alt="Preview Course"
+                />
+                <img
+                  src="/Task-5/quantum screen assets/icons/manage course.svg"
+                  alt="Manage Course"
+                />
+                <img
+                  src="/Task-5/quantum screen assets/icons/grade submissions.svg"
+                  alt="Submit Grade"
+                />
+                <img
+                  src="/Task-5/quantum screen assets/icons/reports.svg"
+                  alt="Show Reports"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-links-container">
+        <a href="" class="about-link">About</a>
+        <a href="" class="contact-us-link">Contact Us</a>
+      </div>
+      <div class="footer-description">
+        <img
+          src="/Task-5/quantum screen assets/icons/logo used in footer.svg"
+          alt="Quantum Logo"
+          class="footer-logo"
+        />
+        <span class="copyright">Copyright © 2020-2021</span>
+        <span class="zeus">Zeus Systems Pvt. Ltd.</span>
+        <span class="rights-reserves">All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/Task-5/login-with-quantum.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img
+          src="/Task-5/quantum screen assets/icons/logo used in header.svg"
+          alt="Quantum Logo"
+        />
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="login-container">
+          <div class="card-body">
+            <div class="card-content">
+              <div class="card-header">
+                <div class="back-button">
+                  <img
+                    src="/Task-5/quantum screen assets/icons/sort.svg"
+                    alt=""
+                  />
+                </div>
+                <h2 class="card-title">Log in with Quantum</h2>
+              </div>
+              <form action="">
+                <div class="radio">
+                  <div>
+                    <label>
+                      <input
+                        class="with-gap"
+                        type="radio"
+                        name="group1"
+                        checked
+                      />
+                      <span>District</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label>
+                      <input class="with-gap" type="radio" name="group1" />
+                      <span>Independent school</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="state-dropdown">
+                  <label for="state-dropdown-field">State*</label>
+                  <select
+                    id="state-dropdown-field"
+                    name="state"
+                    class="dropdown"
+                  >
+                    <option value="alabama" selected>Alabama</option>
+                    <option value="texas">Texas</option>
+                  </select>
+                </div>
+                <div class="district-dropdown">
+                  <label for="state-dropdown-field">District*</label>
+                  <select
+                    id="district-dropdown-field"
+                    name="district"
+                    class="dropdown"
+                  >
+                    <option value="alabama school district" selected>
+                      Alabama School District
+                    </option>
+                  </select>
+                </div>
+                <div class="email-container">
+                  <div>
+                    <input
+                      type="text"
+                      id="fname"
+                      name="fname"
+                      placeholder="Username/Email ID*"
+                      class="input"
+                    />
+                  </div>
+                  <div class="forgot-username">FORGOT USERNAME?</div>
+                </div>
+                <div class="password-container">
+                  <div>
+                    <input
+                      type="text"
+                      id="password"
+                      name="password"
+                      placeholder="Password*"
+                      class="input"
+                    />
+                  </div>
+                  <div class="forgot-username">FORGOT USERNAME?</div>
+                </div>
+                <div class="remember-me">
+                  <input
+                    type="checkbox"
+                    id="remember-me"
+                    name="remember-me"
+                    value="remember-me"
+                  />
+                  <label for="remember-me">Remember Me</label>
+                </div>
+                <div class="log-in">
+                  <div>
+                    <button class="login-button">LOG IN</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-links-container">
+        <a href="" class="about-link">About</a>
+        <a href="" class="contact-us-link">Contact Us</a>
+      </div>
+      <div class="footer-description">
+        <img
+          src="/Task-5/quantum screen assets/icons/logo used in footer.svg"
+          alt="Quantum Logo"
+          class="footer-logo"
+        />
+        <span class="copyright">Copyright © 2020-2021</span>
+        <span class="zeus">Zeus Systems Pvt. Ltd.</span>
+        <span class="rights-reserves">All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+</html>
